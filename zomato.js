@@ -33,6 +33,7 @@ app.post("/locations",(req, res)=>{
                     for(var information of city_data){
                         var Dict={
                             name: information.restaurant.name,
+                            url: information.restaurant.url,
                             address: information.restaurant.location.address,
                             average_cost_for_two: information.restaurant.average_cost_for_two,
                             price_range: information.restaurant.price_range,
