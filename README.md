@@ -16,3 +16,10 @@ Now, you need to install necessary dependencies using npm (node-package-manager)
 ``` npm init``` to initialize package.json file. Then, type..
 
 ```npm install body-parser ejs express iplocation path public-ip zomato --save```
+
+# How to Run ?
+
+Now, navigate to server.js file on your terminal, and run the following command to start your localhost server.
+```
+node server.js
+```
