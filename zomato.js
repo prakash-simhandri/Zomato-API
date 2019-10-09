@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(express.static(__dirname + "/views"));
 
-const client = zomato.createClient({userKey:'86b8fbef1c254b252fb1745046396303'})
+const client = zomato.createClient({userKey:'86b8fbef1c254b252fb1745046396303'}) //as obtained from [Zomato API](https://developers.zomato.com/apis)
 app.set('views engine', 'ejs')
 
 app.get("/search_data", (req, res)=>{
