@@ -19,7 +19,7 @@ Now, you need to install necessary dependencies using npm (node-package-manager)
 
 # How to Run ?
 
-Now, navigate to server.js file on your terminal, and run the following command to start your localhost server.
+Now, navigate to zomato.js.js file on your terminal, and run the following command to start your localhost server.
 ```
-node server.js
+node zomato.js.js
 ```
