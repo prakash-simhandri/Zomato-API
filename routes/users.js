@@ -8,7 +8,7 @@ var router = express.Router();
 require('dotenv').config()
 
 
-const client = zomato.createClient({userKey:process.env.Zomato_userKey})
+const client = zomato.createClient({userKey:process.env.Zomato_userKey}) /*enter the your zomato secret key*/
 
 
 /*Get Locations page.*/
