@@ -9,9 +9,10 @@
   "author": "prakash",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "nodemon": "^1.19.1",
+    "nodemon": "^1.19.4",
     "zomato": "^1.1.0"
   }
 }
